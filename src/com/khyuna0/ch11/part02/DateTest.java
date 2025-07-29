@@ -19,7 +19,7 @@ public class DateTest {
 		
 		System.out.println("======================");
 		
-		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy년 MM월 dd일 hh시 mm분 ss초"); 
+		SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy년 MM월 dd일 E요일 hh시 mm분 ss초"); 
 		String date2 = sdf2.format(nowTime);
 		
 		System.out.println(date2);
