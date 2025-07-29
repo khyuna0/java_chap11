@@ -1,7 +1,9 @@
 package com.khyuna0.ch11.part01.stringTest;
 
 public class SubStringTest {
-// 필요한 문자열만 빼기
+	
+	// substring(n, m)필요한 문자열만 반환하기
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String addr = "서울특별시 종로구 숭인동 111번지 302호 2층";
