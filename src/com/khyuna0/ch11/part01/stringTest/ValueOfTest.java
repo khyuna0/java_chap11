@@ -3,6 +3,7 @@ package com.khyuna0.ch11.part01.stringTest;
 public class ValueOfTest {
 	
 	public static void main(String[] args) {
+		// 기본 타입 값 문자열로 변경하기
 		
 		String str1 = String.valueOf(100);
 		String str2 = String.valueOf(false);
@@ -16,3 +17,4 @@ public class ValueOfTest {
 	
 
 }
+ 
