@@ -1,8 +1,7 @@
-// 주민번호 출력 프로그램
 package com.khyuna0.ch11.part01.stringTest;
 
 public class JuminNumTest {
-
+	// charAt() 응용 주민번호 출력 프로그램
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
