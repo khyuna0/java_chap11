@@ -24,7 +24,7 @@ public class Upper {
 				} 
 		}
 		
-		System.out.println(firstnum.toUpperCase(str.charAt(0))+result);
+		System.out.println(firstnum.toUpperCase(str.charAt(0))+result); 
 		
 		
 	}
