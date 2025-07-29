@@ -4,11 +4,29 @@ public class Upper {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String string = "I Like Chopin";
-
-		System.out.println();
+		String string = "i like chopin";
+		
 		// 첫 글자 index 0 대문자, 다음엔 공백 기준
-				
+		
+		String str = string.trim(); // 공백 있으면 프로그램 터짐
+		
+		Character firstnum = str.charAt(0);
+		
+		String result = ""; // 바나나랑 같은 방법
+		for (int i=1;i<str.length();i++)
+		{
+			if( str.charAt(i) == ' ' ) {
+				result += " " + Character.toUpperCase(str.charAt(i+1));  // Character 클래스의 static method 호출함
+				i++; // 공백, 공백 다음 문자 순서 처리 하고 다음 순서로 넘김
+				}
+			else {
+				result += str.charAt(i);
+				} 
+		}
+		
+		System.out.println(firstnum.toUpperCase(str.charAt(0))+result);
+		
+		
 	}
 
 }

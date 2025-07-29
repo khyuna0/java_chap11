@@ -9,18 +9,13 @@ public class IdDomain {
 		
 		int indexnum = string.indexOf("@");
 		
-		System.out.println(indexnum); // 5
+//		System.out.println(indexnum);  5
 		
-//		int front = indexnum - 1;  @ 앞 문자
-//		int back = indexnum + 1;
+		String frontNum = string.substring(0, indexnum);
+		String backNum = string.substring(indexnum + 1);
 		
-		for (int i=0;i<indexnum;i++) {
-			System.out.println();
-		}
-		
-		for (int i=indexnum + 1;i<string.length();i++) {
-			System.out.println(i);
-		}
+		System.out.println(frontNum);
+		System.out.println(backNum);
 	}
 
 }
