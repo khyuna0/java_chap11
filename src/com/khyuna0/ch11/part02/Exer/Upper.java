@@ -10,9 +10,7 @@ public class Upper {
 		
 		String str = string.trim(); 
 		
-		Character firstnum = str.charAt(0);
-		
-		String result = ""; // 바나나랑 같은 방법
+		String result = ""; 
 		for (int i=1;i<str.length();i++)
 		{
 			if( str.charAt(i) == ' ' ) {
@@ -24,7 +22,7 @@ public class Upper {
 				} 
 		}
 		
-		System.out.println(firstnum.toUpperCase(str.charAt(0))+result); 
+		System.out.println(Character.toUpperCase(str.charAt(0))+result); 
 		
 		
 	}
