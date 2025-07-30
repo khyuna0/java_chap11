@@ -9,13 +9,13 @@ public class IdDomain {
 		
 		int indexnum = string.indexOf("@");
 		
-//		System.out.println(indexnum);  5
+//		
 		
-		String frontNum = string.substring(0, indexnum);
-		String backNum = string.substring(indexnum + 1);
+		String id = string.substring(0, indexnum);
+		String domain = string.substring(indexnum + 1);
 		
-		System.out.println(frontNum);
-		System.out.println(backNum);
+		System.out.println(id);
+		System.out.println(domain);
 	}
 
 }

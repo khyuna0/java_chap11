@@ -8,7 +8,7 @@ public class Upper {
 		
 		// 첫 글자 index 0 대문자, 다음엔 공백 기준
 		
-		String str = string.trim(); // 공백 있으면 프로그램 터짐
+		String str = string.trim(); 
 		
 		Character firstnum = str.charAt(0);
 		
